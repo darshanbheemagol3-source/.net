@@ -29,13 +29,13 @@ namespace RegistrationApp.Controllers
 {
     public class AccountController : Controller
     {
-        // GET: /Account/Register
+
         public IActionResult Register()
         {
             return View();
         }
 
-        // POST: /Account/Register
+    
         [HttpPost]
         public IActionResult Register(RegisterModel model)
         {
